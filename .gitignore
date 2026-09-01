@@ -1,0 +1,53 @@
+# ===================================
+# ONLY RAW FIRMWARE + APK FILES
+# ===================================
+# NO manuscripts, NO research papers, NO decompiled source trees
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# EXCLUDE all manuscript/research/docs/tools
+# ==========================================
+
+# Manuscripts, research papers, docs
+*.docx
+*.pdf
+*.md
+*.html
+*.txt
+*.json
+
+# Tools, scripts, figures, archives
+tools/
+figures/
+ota_downloads/
+android_apps/
+*.tar.gz
+
+# Decompiled source trees (too many files)
+decompiled/
+extracted/
+
+# Keep ONLY:
+# - .gitignore
+# - LSW3_32U_5406_1.07.bin  (original firmware)
+# - INVERGY_1.0.2_APKPure.xapk  (Android app)
+# - com.igen.xiaomaizhidian_*.apkm  (Android app)
